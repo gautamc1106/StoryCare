@@ -4,4 +4,4 @@ from services.keywords import requestWatsonSentence
 path = './PALS-docs/Q34.docx'
 
 sentenceList = parseText(path)
-print requestWatsonSentence(sentenceList)
+print (requestWatsonSentence(sentenceList))
