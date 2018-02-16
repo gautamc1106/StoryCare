@@ -20,5 +20,6 @@ def requestWatsonSentence(sentences):
                               keywords=KeywordsOptions(emotion=True,sentiment=True,limit=2)))
         keywords[len(keywords)] = [item.get('text',{}) for item in tmp.get('keywords',{}) if item.get("relevance") > 0.1]
         entities[len(entities)] = [item.get('text',{}) for item in tmp.get('entities',{}) if item.get("relevance") > 0.75]
+
     # return keywords, tones #'rtype': dictionary
     return entities, keywords
