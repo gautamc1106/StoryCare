@@ -13,7 +13,7 @@ def getDictOfKeywords(dir):
     for file in os.listdir(dir):
         if file[0] == ".":
             continue
-        metadata = pyexiv2.ImageMetadata(dir + '//' + file)
+        metadata = pyexiv2.ImageMetadata(dir + '/' + file)
         metadata.read()
         if('Iptc.Application2.Keywords' in metadata.iptc_keys):
             dictOfimg[file] = metadata['Iptc.Application2.Keywords'].raw_value
@@ -25,7 +25,7 @@ def getDictOfKeywords(dir):
     return dictOfimg
 
 def getSimilarImage():
-    images = getDictOfKeywords('..//..//StoryCare images')
+    images = getDictOfKeywords('../StoryCareImages')
     maxSim = 0
     imageSim = ''
     for image in images.keys():
