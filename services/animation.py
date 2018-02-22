@@ -45,11 +45,11 @@ def animator(imageURL, imageText, img_idx):
     region  = new_region(x,y)
 
     x_text = 0.05*x
-    y_text = y/2 + ((y/2)-(text_height*len(lines)))/2 - 0.05*y
+    y_text = 0.8*y + ((0.8*y)-(text_height*len(lines)))/2 - 0.05*y
 
 
     #draw.rectangle(region, (255,0,0,190))
-    draw.polygon(region, (0,0,0,230))
+    draw.polygon(region, (255,250,250,230))
     for line in lines:
 
     	draw.text((x_text, y_text), line, font=font, fill= font_color)
@@ -64,10 +64,10 @@ def font_type(image,txt, img_idx):
 
 	if img_idx==0:
 		font_fname = '../fonts/Arial/ARIBL.ttf'
-		font_color = 'rgb(242,56,82)'
+		font_color = 'rgb(0,0,0)'
 	else:
 		font_fname = '../fonts/Arial/Arialn.ttf'
-		font_color = 'rgb(255,255,255)'
+		font_color = 'rgb(0,0,0)'
 
 
 	font = ImageFont.truetype(font_fname, font_size)
@@ -82,7 +82,7 @@ def font_type(image,txt, img_idx):
 	return font, font_color
 
 def new_region(x,y):
-	region = [(0,y/2), (0.8*x,y/2), (x,0.75*y), (x,y), (0,y)]
+	region = [(0,0.8*y), (0.8*x,0.8*y), (0.85*x,0.75*y), (x,0.75*y), (x,y),(0,y)]
 	return region
 
 animator('/Users/gautamchheda/Desktop/Startup Studio/stock_images/shutterstock_121813225.jpg','StoryCarf3rjfh3uihf3iufhfu3fu3ffnjr3hfjrhfhrgh5ghihgige is the best',1)
