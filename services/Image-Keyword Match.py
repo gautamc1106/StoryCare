@@ -1,9 +1,6 @@
 
 # coding: utf-8
 
-# In[1]:
-
-
 import pyexiv2
 import nltk
 import os
@@ -41,7 +38,7 @@ def getSimilarImage():
             similarity = maxSim
             imageSim = image
     return imageSim
-    
+
 def getSimilarImage1():
     images = getDictOfKeywords('..//..//StoryCare images')
     maxSim = 0
@@ -110,7 +107,7 @@ getSimilarImage()
 #  for syn in wordnet.synsets("rest"):
 #     synonyms = []
 #     w1 = syn
-#     w2 
+#     w2
 #     w1.wup_similarity(w2)
 #     for l in syn.lemmas():
 #         synonyms.append(l.name())
@@ -152,7 +149,7 @@ getSimilarImage()
 # from nltk.corpus import wordnet
 
 # list1 = ['head', 'ache']
-# list2 = ['head', 'ache'] 
+# list2 = ['head', 'ache']
 # list11 = []
 
 # for word1 in list1:
@@ -165,4 +162,3 @@ getSimilarImage()
 #                 list11.append(s)
 
 # print(np.mean(list11))
-
