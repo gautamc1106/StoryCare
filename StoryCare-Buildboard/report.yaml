@@ -6,9 +6,9 @@ tags:
   - Health Tech
   - Language Processing
   - Text to image matching
-  - machine learning
+  - Machine Learning
 
-product_narrative: 
+product_narrative: |
   We make discharge instructions intuitive to patients, by turning them into easy-to-read Instagram-like stories.
   We're saving hospitals and payers money by fitting our technology into their existing backend system.
   
@@ -21,22 +21,24 @@ team:
     program: CM
   - name: Arpit Sabherwal
     email: as3624@cornell.edu
-    picture: arpit.png
+    picture: Arpit.jpg
     program: HT
   - name: Kripa Agarwal
     email: as3624@cornell.edu
-    picture: arpit.png
+    picture: kripa.jpg
     program: HT
   - name: Lucien Hwang
     email: huany918@newschool.edu
-    picture: lucien.png
+    picture: Lucien.jpg
     program: Design
   - name: Gautam Chheda
     email: gc463@cornell.edu
-    picture: gautam.png
+    picture: Gautam.jpg
     program: CM
     
     
 assets:
 - title: Sprint 1
   url: https://docs.google.com/presentation/d/17PvMudDMbmbkOy7uFzlfd73dqJfUuiEqp--R1ysc4Ys/edit?usp=sharing
+- title: Sprint 2
+  url: https://docs.google.com/presentation/d/17EXx6ZkGucKElmfdk4SI_CpaOertkCi93wkHqUp-tF0/edit?usp=sharing
