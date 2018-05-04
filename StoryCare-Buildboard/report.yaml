@@ -9,7 +9,7 @@ tags:
   - Machine Learning
 
 product_narrative: |
-  We make discharge instructions intuitive to patients, by turning them into easy-to-read Instagram-like stories.
+  We make medical instructions intuitive to patients, by turning them into easy-to-read Instagram-like stories.
   We're saving hospitals and payers money by fitting our technology into their existing backend system.
   
 team:
@@ -24,7 +24,7 @@ team:
     picture: Arpit.jpg
     program: HT
   - name: Kripa Agarwal
-    email: as3624@cornell.edu
+    email: ka467@cornell.edu
     picture: kripa.jpg
     program: CS
   - name: Lucien Hwang
